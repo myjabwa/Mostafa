@@ -1,15 +1,78 @@
-/* This is a comment */
-/* background-image: url("../photo.jpg") */
+/*
+This is a comment 
+background-image: url("../photo.jpg")
+*/
 
-.p1 {
-    color: brown;
-    font-size: 40px;
+
+.wrapper {
+  display: flex;
+  height: 100vh;
 }
 
 
-.t {
-  color: #07D;
+.card {
+  width: 100%;
+  max-width: 700px;
+  background: rgb(154, 252, 231);
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 60px -10px #3339;
 }
+.img {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-50%);
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 5px 50px 0 #64F,
+              0 0 0 7px #64F8;
+  transition: all 300ms;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  color: #444;
+  margin: 0;
+  font-size: 25px;
+  padding: auto 20px;
+  background: linear-gradient(-20deg, rgb(0, 247, 255), rgb(15, 1, 143));
+  transform: scale(0.8);
+}
+
+p {
+  font-weight: 1000;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 0%;
+}
+
+
+.cnt {
+  margin-top: -35px;
+  padding: 0 20px;
+  text-align: center;
+  padding-bottom: 40px;
+  transition: all 300ms;
+}
+.name {
+  font-weight: 700;
+  font-size: 30px;
+  color: #64F;
+  margin-bottom: 15px;
+}
+.txt {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 7px;
+}
+i.fa-thumbtack {
+  margin: 0 5px;
+}
+
+
 
 .card-social {
     margin-top: 25px;
@@ -38,8 +101,4 @@
   .card-social .instagram {
     background: linear-gradient(45deg, #45F, #F11);
     box-shadow: 0 4px 30px #B449;
-  }
-  .card-social .snapchat {
-    background: linear-gradient(45deg, rgb(16, 16, 16), rgb(237, 195, 8));
-    box-shadow: 0 4px 30px rgba(4, 4, 4, 0.966);
-  }
+  }  
